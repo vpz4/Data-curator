@@ -1992,7 +1992,7 @@ def data_curator(path, imputation_method_id, outlier_detection_method_id):
     stop = timeit.default_timer();
     print('Time: ', np.around(stop - start, 3), 'sec'); print();
 
-    plot_curator_results(data_org, cmatrix, outliers_ind, good_features_ind);
+#    plot_curator_results(data_org, cmatrix, outliers_ind, good_features_ind);
 
     print("Done!");
 
