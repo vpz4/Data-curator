@@ -17,8 +17,8 @@ To execute the REST service, through a temporary web interface, follow these ste
 13.	A folder “results/” will be automatically generated, including three documents: (i) the curated dataset, (ii) the data quality assessment report, and (iii) the data standardization report.
 14.	The files will be also automatically downloaded in a .zip folder.
 
-* The dataset needs to be in a tabular format (where the number of rows is equal to the number of patients and the number of columns is equal to the number of features, with the first row including the features labels). Since the data standardization process is exclusively dedicated to the primary Sjogren’s Syndrome (pSS) domain, any attempt to run it using an irrelevant dataset would be pointless. However, the produced data quality assessment report and the curated dataset will not be affected.
+*The dataset needs to be in a tabular format (where the number of rows is equal to the number of patients and the number of columns is equal to the number of features, with the first row including the features labels). Since the data standardization process is exclusively dedicated to the primary Sjogren’s Syndrome (pSS) domain, any attempt to run it using an irrelevant dataset would be pointless. However, the produced data quality assessment report and the curated dataset will not be affected.
 
-Important note: For data protection purposes, the anonymized datasets that were used in the manuscript which involves the source code of the data curator are not published.
+Important note: For data protection purposes, the anonymized datasets that were used during the development of the source code for the data curator are not published.
 
 Contact e-mail: bpezoulas@gmail.com 
