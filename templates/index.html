@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>REST API for the data curator</title>
+</head>
+<body>
+<div align="center">
+   <h1>Welcome to a temporary REST API for the data curator</h1>
+   <h3>Upload new File</h3>
+   <form method=post enctype=multipart/form-data>
+       <input type=file name=file>
+	<br>
+	<br><h3>Select a method for outlier detection</h3>	
+		<select id = "outlier_detection_method_id" name = "outlier_detection_method_id">
+		<option value="1">z-score</option>
+		<option value="2">Interquartile range (IQR)</option>
+		<option value="3">Grubb's test</option>
+		<option value="4">Local Outlier Factor (LOF)</option>
+		<option value="5">None</option>
+		</select>
+	</br>
+	
+ 	<br><h3>Select a method for data imputation</h3>	
+		<select id = "imputation_method_id" name = "imputation_method_id">
+		<option value="1">Average/median</option>
+		<option value="2">Random</option>
+		<option value="3">None</option>
+		</select>	
+	</br>
+	
+	<br>
+	<input type=submit value=Apply>
+	</form>
+</div>
+</body>
+</html>
